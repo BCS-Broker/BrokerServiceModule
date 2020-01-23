@@ -14,4 +14,3 @@ Pod::Spec.new do |s|
   s.dependency 'Threads', '~> 3.1.0'
   s.dependency 'BCSUniverse', '~> 1.0.8'
 end
-end
