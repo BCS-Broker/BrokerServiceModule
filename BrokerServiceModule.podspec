@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BrokerServiceModule'
-  s.version          = '2.0.2'
+  s.version          = '2.0.3'
   s.summary          = 'BrokerSDK.BrokerServiceModule'
   s.homepage         = 'https://github.com/BCS-Broker/BrokerServiceModule'
   s.author           = 'BCS'
@@ -11,6 +11,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'  
   s.vendored_frameworks = 'BrokerServiceModule.xcframework' 
   s.dependency 'BrokerUIKit', '~> 2.0.6'
-  s.dependency 'Threads', '~> 3.1.0'
   s.dependency 'BCSUniverse', '~> 1.0.8'
 end
