@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.swift_versions = "5.0"
   s.ios.deployment_target = '10.0'  
   s.vendored_frameworks = 'BrokerServiceModule.xcframework' 
-  s.dependency 'BrokerUIKit', '~> 2.0.4'
+  s.dependency 'BrokerUIKit', '~> 2.0.6'
   s.dependency 'Threads', '~> 3.1.0'
   s.dependency 'BCSUniverse', '~> 1.0.8'
 end
