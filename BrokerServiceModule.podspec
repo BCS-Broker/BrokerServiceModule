@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BrokerServiceModule'
-  s.version          = '2.0.4'
+  s.version          = '2.0.5'
   s.summary          = 'BrokerSDK.BrokerServiceModule'
   s.homepage         = 'https://github.com/BCS-Broker/BrokerServiceModule'
   s.author           = 'BCS'
